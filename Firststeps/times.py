@@ -18,9 +18,11 @@ for x in range (many):
     answer = int(input())
     listanswer.append(answer)
 for i in range (many):
-    q=str(listnumber1[i]),"*",str(listnumber2[i])
-    print("Q"+str(i+1)+q)
+    q=str(listnumber1[i])+"*"+str(listnumber2[i])
+    a=(listnumber1[i])*(listnumber2[i])
+    print("Q"+str(i+1)+") "+q+"="+str(a))
 
-m = input("Want to try again (yes/no)? ")
-if (m != "yes"):
-    finish = True
+
+#m = input("Want to try again (yes/no)? ")
+#if (m != "yes"):
+#    finish = True
