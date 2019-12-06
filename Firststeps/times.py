@@ -1,5 +1,6 @@
-    import random
-while finish == false
+import random
+finish = False
+while finish == False:
     print("How many questions?")
     many = int(input())
 
